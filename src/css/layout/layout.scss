@@ -9,8 +9,9 @@
         left: 0;
         display: flex;
         padding: 0 1rem;
-        background-color: #21265F;
-        color: #fff;
+        background-color: transparent;
+        backdrop-filter: blur(10px);
+        color: #000;
         z-index: 99;
 
         h1 {
@@ -23,6 +24,9 @@
 
         .topNavWrap {
             display: none;
+            li{
+                color: #000;
+            }
         }
 
         .goToHome {
@@ -36,7 +40,7 @@
         .goToBack {
             font-size: 24px;
             padding: 1rem;
-            color: #fff;
+            color: #000;
             background-color: transparent;
             border: none;
         }
@@ -106,7 +110,10 @@
                         width: 1px;
                         height: 12px;
                         margin-top: 4px;
-                        background-color: #fff;
+                        background-color: #000;
+                    }
+                    &:hover {
+                        color: orange;
                     }
                 }
             }

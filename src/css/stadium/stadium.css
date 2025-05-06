@@ -44,17 +44,17 @@
 }
 .stadiumWrap .contentsWrap .lg,
 .stadiumWrap .contentsWrap .doosan {
-  background-image: url(../../../public/lg-doosan-stadium.webp);
+  background-image: url(../../../public/lg-doosan-stadium.jpg);
   background-position: center;
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .samsung {
-  background-image: url(../../../public/samsung-stadium.webp);
+  background-image: url(../../../public/samsung-stadium.jpg);
   background-position: center;
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .kia {
-  background-image: url(../../../public/kia-stadium.webp);
+  background-image: url(../../../public/kia-stadium.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -64,27 +64,27 @@
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .ssg {
-  background-image: url(../../../public/ssg-stadium.webp);
+  background-image: url(../../../public/ssg-stadium.jpg);
   background-position: center;
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .lotte {
-  background-image: url(../../../public/lotte-stadium.webp);
+  background-image: url(../../../public/lotte-stadium.jpeg);
   background-position: center;
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .kiwoom {
-  background-image: url(../../../public/kiwoom-stadium.webp);
+  background-image: url(../../../public/kiwoom-stadium.jpg);
   background-position: center;
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .hanhwa {
-  background-image: url(../../../public/hanhwa-stadium.webp);
+  background-image: url(../../../public/hanhwa-stadium.jpg);
   background-position: center;
   background-size: cover;
 }
 .stadiumWrap .contentsWrap .nc {
-  background-image: url(../../../public/nc-stadium.webp);
+  background-image: url(../../../public/nc-stadium.avif);
   background-position: center;
   background-size: cover;
 }

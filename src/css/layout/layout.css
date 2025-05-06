@@ -9,8 +9,9 @@
   left: 0;
   display: flex;
   padding: 0 1rem;
-  background-color: #21265F;
-  color: #fff;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: #000;
   z-index: 99;
 }
 .layoutWrap .fixedHeader h1 {
@@ -23,6 +24,9 @@
 .layoutWrap .fixedHeader .topNavWrap {
   display: none;
 }
+.layoutWrap .fixedHeader .topNavWrap li {
+  color: #000;
+}
 .layoutWrap .fixedHeader .goToHome {
   margin-left: auto;
   font-size: 24px;
@@ -33,7 +37,7 @@
 .layoutWrap .fixedHeader .goToBack {
   font-size: 24px;
   padding: 1rem;
-  color: #fff;
+  color: #000;
   background-color: transparent;
   border: none;
 }
@@ -93,7 +97,10 @@
     width: 1px;
     height: 12px;
     margin-top: 4px;
-    background-color: #fff;
+    background-color: #000;
+  }
+  .layoutWrap .fixedHeader .topNavWrap li:hover {
+    color: orange;
   }
   .layoutWrap .goToHome {
     display: none;

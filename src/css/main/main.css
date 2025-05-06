@@ -44,6 +44,12 @@
   .mainWrap section .clubWrap {
     grid-template-columns: repeat(3, 1fr);
   }
+  .mainWrap section .clubWrap > div {
+    transition: 0.1s;
+  }
+  .mainWrap section .clubWrap > div:hover {
+    background-color: #ccc;
+  }
   .mainWrap section .clubWrap > div .favorite {
     font-size: 1rem;
   }

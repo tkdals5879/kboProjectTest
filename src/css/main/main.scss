@@ -1,16 +1,20 @@
-.mainWrap{
+.mainWrap {
     padding: 5rem 0;
-    section{
+
+    section {
         padding: 0 1rem 1rem 1rem;
-        h2{
+
+        h2 {
             margin-bottom: 2rem;
             font-size: 32px;
         }
-        .clubWrap{
+
+        .clubWrap {
             display: grid;
-            grid-template-columns: repeat(2,1fr);
+            grid-template-columns: repeat(2, 1fr);
             gap: 12px;
-            >div{
+
+            >div {
                 max-width: 100%;
                 display: flex;
                 justify-content: center;
@@ -20,7 +24,8 @@
                 background-color: #eee;
                 border-radius: 10px;
                 position: relative;
-                .favorite{
+
+                .favorite {
                     position: absolute;
                     top: 4px;
                     right: 4px;
@@ -28,7 +33,8 @@
                     background-color: transparent;
                     border: none;
                     cursor: pointer;
-                    .fav{
+
+                    .fav {
                         color: gold;
                     }
                 }
@@ -38,13 +44,19 @@
 }
 
 @media (min-width:767px) {
-    .mainWrap{
+    .mainWrap {
         padding: 5rem clamp(10rem, 5vw, 15rem);
-        section{
-            .clubWrap{
-                grid-template-columns: repeat((3,1fr));
-                >div{
-                    .favorite{
+
+        section {
+            .clubWrap {
+                grid-template-columns: repeat((3, 1fr));
+
+                >div {
+                    transition: .1s;
+                    &:hover{
+                        background-color: #ccc;
+                    }
+                    .favorite {
                         font-size: 1rem;
                     }
                 }
@@ -54,10 +66,10 @@
 }
 
 @media (min-width:1200px) {
-    .mainWrap{
-        section{
-            .clubWrap{
-                grid-template-columns: repeat(4,1fr);
+    .mainWrap {
+        section {
+            .clubWrap {
+                grid-template-columns: repeat(4, 1fr);
             }
         }
     }

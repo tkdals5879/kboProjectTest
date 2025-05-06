@@ -2,16 +2,12 @@
   padding: 60px 0;
 }
 .myTeamWrap > h2 {
-  background-color: #21265F;
-  color: #fff;
   padding-bottom: 3rem;
   padding: 1rem 0 0 1rem;
-  border-bottom: 1px solid #21265F;
 }
 .myTeamWrap .myTeamDisplay {
   display: flex;
   flex-direction: column;
-  background-color: #21265F;
   gap: 3rem;
 }
 .myTeamWrap .myTeamDisplay .myTeamInfoA {
@@ -29,8 +25,6 @@
 }
 .myTeamWrap .myTeamDisplay .myTeamInfoB {
   width: 100%;
-  border-radius: 50px 50px 0px 0px;
-  background-color: #fff;
 }
 .myTeamWrap .myTeamDisplay .myTeamInfoB > div {
   width: fit-content;

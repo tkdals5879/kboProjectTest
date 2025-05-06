@@ -78,8 +78,8 @@
   .stadiumDetailWrap {
     padding: 5rem 10rem;
   }
-  .stadiumDetailWrap .information {
-    padding: 0 1rem;
+  .stadiumDetailWrap .information .text {
+    padding: 0;
   }
   .stadiumDetailWrap .information > div:not(:first-child) {
     display: flex;
