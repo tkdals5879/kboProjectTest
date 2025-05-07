@@ -22,6 +22,7 @@
 
         .stadiumPicture {
             margin-top: .5rem;
+            box-shadow: 0px 0px 10px #000;
 
             img {
                 width: 100%;
@@ -49,6 +50,11 @@
                     flex-direction: column;
                     gap: 12px;
                     align-self: center;
+
+                    p{
+                        color: #6E6E73;
+                        font-weight: 500;
+                    }
 
                     span {
                         margin-left: auto;

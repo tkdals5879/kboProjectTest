@@ -23,12 +23,13 @@
   background-color: #eee;
   border-radius: 10px;
   position: relative;
+  z-index: 99;
 }
 .mainWrap section .clubWrap > div .favorite {
   position: absolute;
   top: 4px;
   right: 4px;
-  color: #ccc;
+  color: #969696;
   background-color: transparent;
   border: none;
   cursor: pointer;

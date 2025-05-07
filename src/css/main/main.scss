@@ -24,12 +24,16 @@
                 background-color: #eee;
                 border-radius: 10px;
                 position: relative;
+<<<<<<< HEAD:src/css/main/main.scss
+=======
+                z-index: 99;
+>>>>>>> 6e384ca (font and design):front-end/src/css/main/main.scss
 
                 .favorite {
                     position: absolute;
                     top: 4px;
                     right: 4px;
-                    color: #ccc;
+                    color: #969696;
                     background-color: transparent;
                     border: none;
                     cursor: pointer;
