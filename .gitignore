@@ -1,2 +1,4 @@
 node_modules/
 *.cache
+# .gitignore 파일에 추가
+build/
